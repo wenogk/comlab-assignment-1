@@ -193,7 +193,7 @@ blockquote{
   border-left:8px solid #78C0A8 ;
   line-height:1.6;
   position: relative;
-  background:#EDEDED;
+  background:rgb(237, 237, 237,0.9);
 }
 
 blockquote::before{
