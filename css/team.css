@@ -1,4 +1,4 @@
-/* Styles below were taken and learned from the tutorial: https://www.youtube.com/watch?v=R3MQgUzUd6I */
+/* Styles below were taken and heavily changed for my page from the tutorial: https://www.youtube.com/watch?v=R3MQgUzUd6I */
 
 
 .wrapper{
@@ -33,12 +33,12 @@
   margin: 0 auto;
   padding: 5px;
   position: relative;
-  cursor: pointer;
 }
 
 .our_team .team_member .member_img img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .our_team .team_member h3{
@@ -63,7 +63,7 @@
   position: absolute;
   top: 5px;
   left: 5px;
-  background: rgba(0,0,0,0.65);
+  background: rgba(0,0,0,0.25);
   width: 95%;
   height: 95%;
   display: flex;
@@ -77,10 +77,16 @@
   margin: 0 10px;
 }
 
-.our_team .team_member .member_img .social_media .fab{
-  color: #8c7ae6;
-  font-size: 20px;
+
+.fb_icon { /* custom style to set the color of the fb icon  */
+  color: #3b5998;
+  font-size: 35px !important;
 }
+
+.fb_icon:hover {
+  font-size: 75px!important;
+}
+
 
 .our_team .team_member .member_img:hover .social_media{
   transform: scale(1);
