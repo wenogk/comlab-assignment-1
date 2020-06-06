@@ -27,6 +27,7 @@
 }
 
 .our_team .team_member .member_img{
+
   max-width: 190px;
   width: 275px;
   height: 275px;
@@ -36,6 +37,7 @@
 }
 
 .our_team .team_member .member_img img{
+  border-radius: 25px;
   width: 100%;
   height: 100%;
   object-fit: cover; /* cool property that I added that allows the images to be "cropped" so that they are all the same size  */
@@ -63,6 +65,7 @@
   position: absolute;
   top: 5px;
   left: 5px;
+  border-radius: 25px;
   background: rgba(0,0,0,0.25);  /* black bg with 0.25 opacity  */
   width: 95%;
   height: 95%;
@@ -83,7 +86,7 @@
 }
 
 .fb_icon:hover { /* custom style to set the color of the fb image on hover  */
-  width: 75px !important;
+  width: 75px !important;  /* increasing the size when hovering cus then its emphasized that this item is clickable  */
 }
 
 
