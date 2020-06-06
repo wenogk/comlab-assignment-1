@@ -47,8 +47,13 @@
             Book a tour NOW!
           </h1>
           <div id="successContainer" style="display:none;">
-            <p>
+            <p style="color: green">
               Thank you <span id="nameSpan"></span>! Your response has been recorded and our dedicated tour team will get back to you with available dates.
+            </p>
+          </div>
+          <div id="errorContainer" style="display:none;">
+            <p style="color: red">
+               <span id="errorMessage"></span>
             </p>
           </div>
           <table>
@@ -59,16 +64,16 @@
             </tr>
             <tr>
             <td class="formLabel">Email: </td>
-            <td> <input class="formTextInput" type="text" /></td>
+            <td> <input class="formTextInput" type="text" id="emailInputValue" /></td>
             </tr>
             <tr>
             <tr>
             <td class="formLabel">Who are you? </td>
             <td>
               <select>
-                <option value="0">Select type:</option>
-                <option value="1">Visitor</option>
-                <option value="2">Student</option>
+                <option value="1">Student</option>
+                <option value="2">Visitor</option>
+
               </select>
         </td>
             </tr>
