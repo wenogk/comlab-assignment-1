@@ -10,6 +10,7 @@
   font-size: 48px;
   color: #fff;
   margin-bottom: 25px;
+  font-family: 'Playfair Display', serif;
 }
 
 .our_team{
@@ -49,6 +50,7 @@
   line-height: 18px;
   letter-spacing: 2px;
   margin: 15px 0 0px;
+  font-family: 'Playfair Display', serif;
 }
 
 .our_team .team_member span{
@@ -59,6 +61,7 @@
   margin-top: 20px;
   font-size: 14px;
   line-height: 20px;
+  font-family: 'Playfair Display', serif;
 }
 
 .our_team .team_member .member_img .social_media{

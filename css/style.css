@@ -46,9 +46,10 @@ li  a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px 16px;
+  padding: 23.5px 16px;
   text-decoration: none;
   font-size: 20px;
+  font-family: 'Playfair Display', serif;
 }
 
 li a:hover {
@@ -74,8 +75,8 @@ li a:hover {
  height:auto;
 }
 
-h1, p {
-  font-family: 'Roboto', sans-serif;
+h1,h2,h3,h4, p {
+  font-family: 'Playfair Display', serif;
 }
 
 .body-content {
@@ -176,7 +177,7 @@ blockquote{
   width:60%;
   border-radius: 25px;
   margin:50px auto;
-  font-family:Open Sans;
+  font-family: 'Playfair Display', serif;
   font-style:italic;
   color: #555555;
   padding:1.2em 30px 1.2em 75px;
@@ -187,7 +188,7 @@ blockquote{
 }
 
 blockquote::before{
-  font-family:Arial;
+  font-family: 'Playfair Display', serif;
   content: "\201C";
   color:#78C0A8;
   font-size:4em;
