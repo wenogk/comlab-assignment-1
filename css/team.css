@@ -80,11 +80,11 @@
 
 .fb_icon { /* custom style to set the color of the fb icon  */
   color: #3b5998;
-  font-size: 35px !important;
+  width: 50px !important;
 }
 
 .fb_icon:hover {
-  font-size: 75px!important;
+  width: 75px !important;
 }
 
 
