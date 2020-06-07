@@ -7,7 +7,7 @@ The project is a website that advertises the Student Life tours that take place 
 * Sketched out possible wireframes
 	* <img src="https://i.ibb.co/HVJnHRQ/image0.jpg" height="500" />
 * Selected a design.
-	* I personally selected a similar design to the above wireframe however with the added feature of users being able to sign up for a tour in order to add some interactivity to the site.
+	* I personally selected a similar design to the above wireframe (just for the header part) however with the added feature of users being able to sign up for a tour in order to add some interactivity to the site.
 * Selected colors and fonts
 	* The colors were inspired by the NYUAD guidelines on the student portal
 	* The font I selected was "Playfair Display" after looking at a myriad of them on Google Fonts
