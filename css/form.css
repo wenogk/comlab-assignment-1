@@ -1,4 +1,4 @@
-.rotate {
+.rotate { /* rotating the nyu torch loading image css */
   animation: rotation 2s infinite linear;
 }
 
@@ -10,9 +10,10 @@
     transform: rotate(359deg);
   }
 }
-#loaderContainer {
+
+#loaderContainer { 
   text-align: center;
 }
-#loaderContainer img {
+#loaderContainer img { /* size of the loader container css */
   width:50%;
 }
