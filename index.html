@@ -1,181 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Student Life Tours</title>
-    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon.png' /> <!-- favicon nyu torch -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/team.css">
-   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-
-    <!-- Start navigation bar html code -->
-
-    <div class="nav-container">
-<div class="logo">
-  <img src="assets/logo.png"/> <!-- logo nyuad image -->
-  </div>
-<nav>
-  <ul>
-  <li><a href="#tour" >Tour</a></li>
-  <li><a href="#team" >Team</a></li>
-  <li><a href="https://nyuad.nyu.edu/en/" target="_blank" >NYUAD Main site</a></li>
-  </ul>
-  </nav>
-</div>
-
-<!-- End navigation bar html code -->
-
-    <div class="body-content" id="tour">
-
-
-
-      <div class="mainTextHeader">
-        Student Life tours at NYUAD <hr class="dashed">
-      </div>
-
-      <!-- Start first section with two cols html code -->
-      <div class="container" >
-      <div class="left">
-
-        <div id="loaderContainer" style="display:none;">
-          <img src="assets/loader.png" class="rotate" />
-        </div>
-        <div class="form" id ="formContainer">
-
-          <h1>
-            Book a tour NOW!
-          </h1>
-          <div id="successContainer" style="display:none;">
-            <p class="successText">
-              Thank you <span id="nameSpan"></span>! Your response has been recorded and our dedicated tour team will get back to you with available dates.
-            </p>
-          </div>
-          <div id="errorContainer" style="display:none;">
-            <p class="errorText">
-               <span id="errorMessage"></span>
-            </p>
-          </div>
-          <table>
-            <tbody>
-            <tr>
-            <td class="formLabel">Name: </td>
-            <td> <input class="formTextInput" type="text"  id="nameInputValue"/></td>
-            </tr>
-            <tr>
-            <td class="formLabel">Email: </td>
-            <td> <input class="formTextInput" type="text" id="emailInputValue" /></td>
-            </tr>
-            <tr>
-            <tr>
-            <td class="formLabel">Who are you? </td>
-            <td>
-              <select>
-                <option value="1">Student</option>
-                <option value="2">Visitor</option>
-
-              </select>
-        </td>
-            </tr>
-            <tr>
-            <td><button id="signUpButton" class="formButton">Sign me up!</button></td>
-            <td> </td>
-            </tr>
-            </tbody>
-        </table>
-
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Student Life Tours</title>
+      <link rel='shortcut icon' type='image/x-icon' href='assets/favicon.png' />
+      <!-- favicon nyu torch -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/team.css">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- Start navigation bar html code -->
+      <div class="nav-container">
+         <div class="logo">
+            <img src="assets/logo.png"/> <!-- logo nyuad image -->
          </div>
-        </div>
-
-        <div class="right" >
-          <div class="video-container">
-            <video width="320" height="240" controls="true">
-  <source src="assets/video.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-          </div>
-        </div>
+         <nav>
+            <ul>
+               <li><a href="#tour" >Tour</a></li>
+               <li><a href="#team" >Team</a></li>
+               <li><a href="https://nyuad.nyu.edu/en/" target="_blank" >NYUAD Main site</a></li>
+            </ul>
+         </nav>
       </div>
-
-      <!-- End first section with two cols html code -->
-
-      <div class="spacer"> </div><div class="spacer"> </div>
-
-      <!-- Start Quote holder html code -->
-
-      <div class="blockquoteHolder">
-      <blockquote>
-        We as a university believe that the students should play an intricate role in the welcoming of new students and visitors to the campus. By allowing students to take this initiative, the university has almost doubled the amount of tours it provides to visitors and all the credit goes to the hard working tour guides!
-        <span>Fyle Karley, Dean of Students.</span>
-      </blockquote>
-    </div>
-    <!-- End Quote holder html code -->
-<div class="spacer"> </div>
-
-<!-- Start Tour guide team holder html code -->
-
-<div class="wrapper" id="team">
-    <h1 style="text-align:center; color: black;">The Tour Guides</h1>
-    <div class="our_team">
-        <div class="team_member">
-          <div class="member_img">
-             <img src="assets/tonia.png" alt="our_team">
-            <div class="social_media">
-               <div class="facebook item"><a href="https://www.facebook.com/tonya.zhang.3" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
-             </div>
-          </div>
-          <h3>Tonia</h3>
-          <p>
-            Hey! I'm a Visual Arts major and I love working with people.
-          </p>
-        </div>
-        <div class="team_member">
-           <div class="member_img">
-             <img src="assets/yusra.png" alt="our_team">
-             <div class="social_media">
-               <div class="facebook item"><a href="https://www.facebook.com/yusra.khan1008" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
-             </div>
-          </div>
-          <h3>Yusra</h3>
-          <p>I'm still undecided between CS and IM but what I'm sure of is the fact that I LOVE this job!</p>
+      <!-- End navigation bar html code -->
+      <div class="body-content" id="tour">
+         <div class="mainTextHeader">
+            Student Life tours at NYUAD
+            <hr class="dashed">
+         </div>
+         <!-- Start first section with two cols html code -->
+         <div class="container" >
+            <div class="left">
+               <div id="loaderContainer" style="display:none;">
+                  <img src="assets/loader.png" class="rotate" />
+               </div>
+               <div class="form" id ="formContainer">
+                  <h1>
+                     Book a tour NOW!
+                  </h1>
+                  <div id="successContainer" style="display:none;">
+                     <p class="successText">
+                        Thank you <span id="nameSpan"></span>! Your response has been recorded and our dedicated tour team will get back to you with available dates.
+                     </p>
+                  </div>
+                  <div id="errorContainer" style="display:none;">
+                     <p class="errorText">
+                        <span id="errorMessage"></span>
+                     </p>
+                  </div>
+                  <table>
+                     <tbody>
+                        <tr>
+                           <td class="formLabel">Name: </td>
+                           <td> <input class="formTextInput" type="text"  id="nameInputValue"/></td>
+                        </tr>
+                        <tr>
+                           <td class="formLabel">Email: </td>
+                           <td> <input class="formTextInput" type="text" id="emailInputValue" /></td>
+                        </tr>
+                        <tr>
+                        <tr>
+                           <td class="formLabel">Who are you? </td>
+                           <td>
+                              <select>
+                                 <option value="1">Student</option>
+                                 <option value="2">Visitor</option>
+                              </select>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><button id="signUpButton" class="formButton">Sign me up!</button></td>
+                           <td> </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="right" >
+               <div class="video-container">
+                  <video width="320" height="240" controls="true">
+                     <source src="assets/video.mp4" type="video/mp4">
+                     Your browser does not support the video tag.
+                  </video>
+               </div>
+            </div>
+         </div>
+         <!-- End first section with two cols html code -->
+         <div class="spacer"> </div>
+         <div class="spacer"> </div>
+         <!-- Start Quote holder html code -->
+         <div class="blockquoteHolder">
+            <blockquote>
+               We as a university believe that the students should play an intricate role in the welcoming of new students and visitors to the campus. By allowing students to take this initiative, the university has almost doubled the amount of tours it provides to visitors and all the credit goes to the hard working tour guides!
+               <span>Fyle Karley, Dean of Students.</span>
+            </blockquote>
+         </div>
+         <!-- End Quote holder html code -->
+         <div class="spacer"> </div>
+         <!-- Start Tour guide team holder html code -->
+         <div class="wrapper" id="team">
+            <h1 style="text-align:center; color: black;">The Tour Guides</h1>
+            <div class="our_team">
+               <div class="team_member">
+                  <div class="member_img">
+                     <img src="assets/tonia.png" alt="our_team">
+                     <div class="social_media">
+                        <div class="facebook item"><a href="https://www.facebook.com/tonya.zhang.3" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
+                     </div>
+                  </div>
+                  <h3>Tonia</h3>
+                  <p>
+                     Hey! I'm a Visual Arts major and I love working with people.
+                  </p>
+               </div>
+               <div class="team_member">
+                  <div class="member_img">
+                     <img src="assets/yusra.png" alt="our_team">
+                     <div class="social_media">
+                        <div class="facebook item"><a href="https://www.facebook.com/yusra.khan1008" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
+                     </div>
+                  </div>
+                  <h3>Yusra</h3>
+                  <p>I'm still undecided between CS and IM but what I'm sure of is the fact that I LOVE this job!</p>
+               </div>
+               <div class="team_member">
+                  <div class="member_img">
+                     <img src="assets/saad.png" alt="our_team">
+                     <div class="social_media">
+                        <div class="facebook item"><a href="https://www.facebook.com/saad.titi.7" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
+                     </div>
+                  </div>
+                  <h3>Saad</h3>
+                  <p>Yo! I'm a CS major and I will give free tours of the convinience store if you get me apple juice.</p>
+               </div>
+               <div class="team_member">
+                  <div class="member_img">
+                     <img src="assets/romeno.jpeg" alt="our_team">
+                     <div class="social_media">
+                        <div class="facebook item"><a href="https://www.facebook.com/iwenogk" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
+                     </div>
+                  </div>
+                  <h3>Romeno</h3>
+                  <p>I'm a CS major but right now I'm just a cameraman. It do be like that.</p>
+               </div>
+            </div>
+         </div>
+         <!-- End Tour guide team holder html code -->
       </div>
-        <div class="team_member">
-           <div class="member_img">
-             <img src="assets/saad.png" alt="our_team">
-             <div class="social_media">
-               <div class="facebook item"><a href="https://www.facebook.com/saad.titi.7" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
-             </div>
-          </div>
-          <h3>Saad</h3>
-          <p>Yo! I'm a CS major and I will give free tours of the convinience store if you get me apple juice.</p>
+      <div class="spacer"> </div>
+      <!-- Start footer holder html code -->
+      <div class="footer">
+         <p>All rights reserved.</p>
       </div>
-        <div class="team_member">
-           <div class="member_img">
-             <img src="assets/romeno.jpeg" alt="our_team">
-             <div class="social_media">
-               <div class="facebook item"><a href="https://www.facebook.com/iwenogk" target="_BLANK"><img class="fb_icon" src="assets/fb.png" /></a></div>
-             </div>
-          </div>
-          <h3>Romeno</h3>
-          <p>I'm a CS major but right now I'm just a cameraman. It do be like that.</p>
-      </div>
-    </div>
-</div>
-<!-- End Tour guide team holder html code -->
-</div>
-<div class="spacer"> </div>
-
-<!-- Start footer holder html code -->
-<div class="footer">
-  <p>All rights reserved.</p>
-</div>
-<!-- End footer holder html code -->
-    <script src="js/script.js" type="text/javascript" ></script> <!-- Get scripts for tour sign up form submission -->
-  </body>
+      <!-- End footer holder html code -->
+      <script src="js/script.js" type="text/javascript" ></script> <!-- Get scripts for tour sign up form submission -->
+   </body>
 </html>
