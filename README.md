@@ -28,6 +28,7 @@ The project is a website that advertises the Student Life tours that take place 
 * Added the quote css code and added a nice background image to it
 * Added the code for the team section with hover to see fb account
 * Added bios for each team member
+* Commented and organized all the css and js so that it is easy to understand.
 
 ## Reflection / Evaluation
 The fact that I would not be able to use Bootstrap or Jquery was a bit daunting as I realized just how reliant I am on them. Through this project I was forced to re-learn css and javascript and this has helped me to further understand how stuff in the frontend works. It was definetely harder to code certain parts of the site especially the form as using vanilla javascript made it a pain. Also certain styles such as the height of each nav item in the nav bar was hard to get right.
