@@ -1,6 +1,9 @@
-*{transition:all 0.3s ease-in-out;}
+/* The following is the css styling for all of the main parts of the website except the team and form sections */
+
+*{transition:all 0.3s ease-in-out;} /* make all transitions smooth on the site */
+
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* This is for when you click a nav bar item so it scrolls to the section smoothely */
 }
 body {
   margin: 0; /* Remove default padding */
@@ -9,7 +12,7 @@ body {
   background-repeat: repeat;  /* repeat bg image in x and y axis */
 }
 
-h1,h2,h3,h4, p {
+h1,h2,h3,h4, p { /* text styling */
   font-family: 'Playfair Display', serif;
 }
 
@@ -31,7 +34,7 @@ nav{
 
 .logo img{  /* nyuad logo */
   float:left;
-  height: 74px;
+  height: 74px; /* height of logo so the width will be auto  */
 }
 
 ul {
@@ -48,20 +51,19 @@ li  a {  /* link items in nav bar */
   display: block;
   color: white;
   text-align: center;
-  padding: 23.5px 16px;
+  padding: 23.5px 16px; /* padding for the item after numerous tests */
   text-decoration: none;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
 }
 
 li a:hover {  /* change link item bg to a dark grey on hover */
-
   background-color: #111;
 }
 
-.mainTextHeader {
-  padding-top: 30px;
-  text-align:center;
+.mainTextHeader { /* The main text header on the site */
+  padding-top: 30px; /* keep some space on top */
+  text-align:center; /* align it to the center */
   font-size:50px;
 }
 
@@ -70,7 +72,7 @@ hr.dashed { /* Dashed line after first header */
   margin-bottom: 30px;
 }
 
-.body-content {
+.body-content { /* All the body content will be in a div that is smaller than the width of the screen and will be centered */
   margin-left: 100px;
   margin-right: 100px;
   margin-top:10px;
@@ -89,24 +91,24 @@ hr.dashed { /* Dashed line after first header */
 }
 
 
-.left {
+.left { /* class to position the item on the left */
   position: relative;
   width: 50%;
   float: left;
    padding: 15px;
 }
 
-.center {
+.center { /* class to position the item on the center */
   display: flex;
   justify-content: center;
 }
 
-.right {
+.right { /* class to position the item on the right */
   position: relative;
   margin-left: 50%; /* Change this to whatever the width of your left column is*/
 }
 
-.video-container {
+.video-container { /* container of the video player */
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px; height: 0;
@@ -139,18 +141,19 @@ height:50px;
   width:100%;
   height:500px;
 }
-blockquote{
+
+blockquote{ /* blockquote css code */
   position: absolute;
   top: 120px;
-  font-size: 1.4em;
+  font-size: 1.4em; /* responsive font size */
   width:60%;
-  border-radius: 25px;
+  border-radius: 25px; /* rounded corners */
   margin:auto;
   font-family: 'Playfair Display', serif;
   font-style:italic;
   color: #555555;
   padding:1.2em 30px 1.2em 75px;
-  border-left:8px solid #007c70 ;
+  border-left:8px solid #007c70 ; /* set only the left border to be visible and of a specific style n color */
   line-height:1.6;
   position: relative;
   background:rgb(237, 237, 237,0.9);
