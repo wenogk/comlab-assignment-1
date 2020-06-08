@@ -2,7 +2,7 @@
   animation: rotation 2s infinite linear;
 }
 
-@keyframes rotation {
+@keyframes rotation { /* rotating animation keyframe */
   from {
     transform: rotate(0deg);
   }
@@ -11,23 +11,23 @@
   }
 }
 
-#loaderContainer {
+#loaderContainer { /* center the loader container css */
   text-align: center;
 }
 #loaderContainer img { /* size of the loader container css */
   width:50%;
 }
 
-.form {
+.form { /* size of the loader container css */
   width:100%;
   height: 100%;
 }
 
-table, tbody {
+table, tbody { /* form table width 100%*/
   width:100%;
 }
 
-.formLabel {
+.formLabel { /* The label on the side of the input text */
   font-size: 20px;
 }
 
@@ -49,11 +49,11 @@ button { /* custom styling to button text css */
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 4px; /* rounded corners */
+  cursor: pointer; /* change the cursor to point to show user this is clickable */
 }
 
-button:hover {
+button:hover { /* change the background color when hovered */
   background-color: #00635a;
 }
 
