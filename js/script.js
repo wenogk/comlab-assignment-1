@@ -1,13 +1,17 @@
+/*
+The following is the javascript code that controls the sign up form when it is submitted to provide some interaction with the user.
+It includes creating a loading image using the NYU torch animation css when the button is clicked and also includes error validation
+*/
 
 const signupButtonClicked = () => { //function that will be called when sign up button is clicked
 
-  let formContainer = document.getElementById("formContainer");
-  let name = document.getElementById("nameInputValue").value;
-  let email = document.getElementById("emailInputValue").value;
-  let loaderContainer = document.getElementById("loaderContainer");
-  let successContainer = document.getElementById("successContainer");
-  let errorContainer = document.getElementById("errorContainer");
-  let errorMessage = ""; //error message
+  let formContainer = document.getElementById("formContainer"); //the container for the initial form
+  let name = document.getElementById("nameInputValue").value; //the current value in the name input box
+  let email = document.getElementById("emailInputValue").value; //the current value in the email input box
+  let loaderContainer = document.getElementById("loaderContainer"); //selector for the loading image container
+  let successContainer = document.getElementById("successContainer"); //selector for the success text container
+  let errorContainer = document.getElementById("errorContainer"); //selector for the error text container
+  let errorMessage = ""; // default error message empty
 
   function validateEmail(email) { //function taken from https://stackoverflow.com/questions/7635533/validate-email-address-textbox-using-javascript
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
