@@ -9,11 +9,11 @@ body {
   background-repeat: repeat;  /* repeat bg image in x and y axis */
 }
 
-.mainTextHeader {
-  padding-top: 30px;
-  text-align:center;
-  font-size:50px;
+h1,h2,h3,h4, p {
+  font-family: 'Playfair Display', serif;
 }
+
+
 .nav-container{
   z-index: 2;  /* place the nav container always ABOVE the video */
   background: #57068C;
@@ -58,19 +58,16 @@ li a:hover {  /* change link item bg to a dark grey on hover */
 
   background-color: #111;
 }
-    .row {
-  display: flex;  /* flex to control the size of the cols */
+
+.mainTextHeader {
+  padding-top: 30px;
+  text-align:center;
+  font-size:50px;
 }
 
-.col {
-  flex: 50%;  /* half the width */
-  padding: 10px;
-  height: 400px;
-}
-
-
-h1,h2,h3,h4, p {
-  font-family: 'Playfair Display', serif;
+hr.dashed { /* Dashed line after first header */
+  border-top: 1px dashed #bbb;
+  margin-bottom: 30px;
 }
 
 .body-content {
@@ -81,9 +78,16 @@ h1,h2,h3,h4, p {
   padding:10px;
 }
 
-.person-description {
-  padding:50px;
+    .row {
+  display: flex;  /* flex to control the size of the cols */
 }
+
+.col {
+  flex: 50%;  /* half the width */
+  padding: 10px;
+  height: 400px;
+}
+
 
 .left {
   position: relative;
@@ -96,8 +100,6 @@ h1,h2,h3,h4, p {
   display: flex;
   justify-content: center;
 }
-
-
 
 .right {
   position: relative;
@@ -121,13 +123,10 @@ h1,h2,h3,h4, p {
   clear: both;
 }
 
-.footer { /* footer styling */
-  position: absolute;
-  width: 100%;
-  background: #57068C;
-  color: white;
-  text-align: center;
+.person-description {
+  padding:50px;
 }
+
 
 .spacer {
 height:50px;
@@ -179,7 +178,11 @@ blockquote span{
   margin-top:1em;
 }
 
-hr.dashed { /* Dashed line after first header */
-  border-top: 1px dashed #bbb;
-  margin-bottom: 30px;
+
+.footer { /* footer styling */
+  position: absolute;
+  width: 100%;
+  background: #57068C;
+  color: white;
+  text-align: center;
 }

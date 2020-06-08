@@ -44,7 +44,7 @@ input[type=text], select {  /* custom styling to input text css */
 
 button { /* custom styling to button text css */
   width: 100%;
-  background-color: #8900e1;
+  background-color: #007c70;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -54,7 +54,7 @@ button { /* custom styling to button text css */
 }
 
 button:hover {
-  background-color: #57068c;
+  background-color: #00635a;
 }
 
 select {
