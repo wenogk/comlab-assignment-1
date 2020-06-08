@@ -46,6 +46,10 @@
   object-fit: cover; /* cool property that I added that allows the images to be "cropped" so that they are all the same size and not "scaled"  */
 }
 
+.member_img > img {
+  border:5px solid #6d6d6d ;
+}
+
 .our_team .team_member h3{ /* name for each member */
   text-transform: uppercase; /* set to upper case by default */
   font-size: 22px;
@@ -70,6 +74,7 @@
   position: absolute;
   top: 5px;
   left: 5px;
+  border:5px solid #8900e1 ;
   border-radius: 25px; /* curved border */
   background: rgba(0,0,0,0.25);  /* black bg with 0.25 opacity  */
   width: 95%;
