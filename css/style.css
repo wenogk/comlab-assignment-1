@@ -222,7 +222,7 @@ blockquote span{
   margin-top:1em;
 }
 
-hr.dashed {
+hr.dashed { /* Dashed line after first header */
   border-top: 1px dashed #bbb;
   margin-bottom: 30px;
 }
