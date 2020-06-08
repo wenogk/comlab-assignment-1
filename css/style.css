@@ -159,9 +159,9 @@ blockquote{ /* blockquote css code */
   background:rgb(237, 237, 237,0.9);
 }
 
-blockquote::before{
+blockquote::before{ /* Add the double quotation mark before the text hence the ::before */
   font-family: 'Playfair Display', serif;
-  content: "\201C";
+  content: "\201C"; /* unicode for double quotation mark -> " */
   color:#78C0A8;
   font-size:4em;
   position: absolute;
@@ -169,11 +169,11 @@ blockquote::before{
   top:-10px;
 }
 
-blockquote::after{
+blockquote::after{ /* The content after is empty and defined in the html */
   content: '';
 }
 
-blockquote span{
+blockquote span{/* The name of the person who I'm quoting (dean fyle karley) */
   display:block;
   color:#333333;
   font-style: normal;
